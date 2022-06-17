@@ -16,7 +16,7 @@ void SelectionSort(int a[],const int n){
 
 }
 
-int main()
+int main(int argc, char ** argv)
 {
 
    int a[12] = {635,596,653,609,738,757,715,776,687,602,657,734};
@@ -26,5 +26,5 @@ int main()
     for(j = 0; j < 12; j++)printf(" %d ",a[j]);
       printf("\n");
 
-
+  return 0;
 }
